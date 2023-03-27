@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta
+      name="viewport"
+      content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <title>海贼王09</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+  </head>
+  <body oncontextmenu="self.event.returnValue=false">
+    <div class="header">
+      <!---头部搜索部分-->
+      <div class="box">
+        <div class="logo"><a href="https://shop119764187.taobao.com/?spm=2013.1.1000126.d21.504a35abaOx2dz#/">前端网页定制</a></div>
+        <ul class="nav">
+          <li class="active">
+            <a href="#">原创作品</a>
+          </li>
+
+          <li><a href="#">10元特价</a></li>
+
+          <li><a href="#">常见问题</a></li>
+        </ul>
+        <div class="toggle-btn visible-sm visible-xs">
+          <span></span> <span></span> <span></span>
+        </div>
+        <div class="search">
+          <form
+            method="get"
+            action="https://www.516play.com/search/"
+            name="searchForm"
+          >
+            <input
+              type="text"
+              class="text"
+              placeholder="输入关键词搜索"
+              name="keyword"
+            />
+            <input type="hidden" name="scode" value="3" />
+            <input id="btn-search" type="submit" class="btn" value="搜索" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="detail">
+      <!---详情页-->
+      <div class="info">
+        <div class="title">介绍</div>
+        <div class="pic"><img src="./images/1651234957847737.jpg" /></div>
+        <div class="text">
+          <!--文本介绍-->
+          <p><span>标题：</span>E001 海贼王09</p>
+
+          <p><span>页数：</span>6页</p>
+          <p><span>价格：</span>30元</p>
+          <p><span>布局：</span>div和css</p>
+          <p>
+            <span>备注：</span
+            ><span style="color: #f00; font-weight: normal"></span>
+          </p>
+          <p style="margin-top: 20px">
+            <a href="#" class="buy" style="margin-right: 30px">点击购买</a>
+            <a href="#" class="buy">返回上一页</a>
+          </p>
+        </div>
+      </div>
+      <div class="zhankai"><span>收起</span> <i class="icon-arrow"></i></div>
+      <div class="scroll-pic">
+        <div class="title">图片展示</div>
+        <div
+          class="swiper-container swiper-container-horizontal swiper-container-autoheight"
+        >
+          <div class="swiper-wrapper" style="height: 753px">
+            <div class="swiper-slide swiper-slide-active" style="width: 1160px">
+              <img src="./images/1651234963426516.jpg" />
+            </div>
+
+            <div class="swiper-slide swiper-slide-next" style="width: 1160px">
+              <img src="./images/1651234963485491.jpg" />
+            </div>
+
+            <div class="swiper-slide" style="width: 1160px">
+              <img src="./images/1651234963326794.jpg" />
+            </div>
+
+            <div class="swiper-slide" style="width: 1160px">
+              <img src="./images/1651234963982254.jpg" />
+            </div>
+
+            <div class="swiper-slide" style="width: 1160px">
+              <img src="./images/1651234963625674.jpg" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-fraction">
+          <span class="swiper-pagination-current">1</span> /
+          <span class="swiper-pagination-total">5</span>
+        </div>
+        <div class="swiper-button-next" title="下一张">下一张&gt;</div>
+        <div class="swiper-button-prev swiper-button-disabled" title="上一张">
+          &lt;上一张
+        </div>
+      </div>
+    </div>
+    <!--返回顶部-->
+    <div class="go-top">
+      <a href="#"></a>
+    </div>
+    <!--js-->
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/jquery-1.7.min.js"></script>
+    <!--<script src="/static/js/f12.js"></script> 
+
+-->
+    <script src="./js/main.js"></script>
+
+    <script>
+      //滚动
+      $(function () {
+        var swiper = new Swiper(".swiper-container", {
+          pagination: ".swiper-pagination",
+          paginationClickable: true,
+          nextButton: ".swiper-button-next",
+          prevButton: ".swiper-button-prev",
+          paginationType: "fraction",
+          autoplay: false,
+          autoHeight: true
+        });
+      });
+    </script>
+    <div class="footer">
+      &nbsp;&nbsp;&nbsp;&nbsp;<br /><a href="#"
+        >
+	下单直达
+		</a
+      >　
+    </div>
+  </body>
+</html>

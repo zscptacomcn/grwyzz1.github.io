@@ -1,17 +1,388 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-		<style>
-			*{
-				margin: 0;
-				padding: 0;
-			}
-		</style>
-		<title></title>
-	</head>
-	<body>
-		<img src="./1.png" width="100%" alt="">
-	</body>
+
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta
+      name="viewport"
+      content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <title>原创作品</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body oncontextmenu="self.event.returnValue=false">
+    <div class="header">
+      <!---头部搜索部分-->
+      <div class="box">
+        <div class="logo"><a href="https://shop119764187.taobao.com/?spm=2013.1.1000126.d21.504a35abaOx2dz#/">前端网页定制</a></div>
+        <ul class="nav">
+          <li class="active">
+            <a href="#">原创作品</a>
+          </li>
+
+          <li><a href="#">10元特价</a></li>
+
+          <li><a href="#">常见问题</a></li>
+        </ul>
+        <div class="toggle-btn visible-sm visible-xs">
+          <span></span> <span></span> <span></span>
+        </div>
+        <div class="search">
+          <form
+            method="get"
+            action="https://www.516play.com/search/"
+            name="searchForm"
+          >
+            <input
+              type="text"
+              class="text"
+              placeholder="输入关键词搜索"
+              name="keyword"
+            />
+            <input type="hidden" name="scode" value="3" />
+            <input id="btn-search" type="submit" class="btn" value="搜索" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="shaixuan">
+      <!--条件筛选-->
+      <div class="item">
+        <span>主题：</span>
+        <p>
+          <a href="#" class="active">全部</a
+          >&nbsp;
+          <a
+            href="#"
+            class=""
+            >疫情</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >美食</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >电商</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >个人</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >宠物</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >化妆品</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >明星人物</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >城市旅游</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >游戏动漫</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >艺术文化</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >爱国</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >汽车</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >体育</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >节日</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >文学书籍</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >影视</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >学校</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >其他主题</a
+          >
+        </p>
+      </div>
+      <div class="item">
+        <span>页数：</span>
+        <p class="scv-shaixuan">
+          <b>页数：</b
+          ><a href="#" class="active">全部</a
+          >&nbsp;
+          <a href="#" class=""
+            >1页</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >2-5页</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >6-10页</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >11-20页</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >20页以上</a
+          >
+          &nbsp;
+        </p>
+      </div>
+      <div class="item">
+        <span>价格：</span>
+        <p class="scv-shaixuan">
+          <b>价格：</b
+          ><a href="#" class="active">全部</a
+          >&nbsp;
+          <a
+            href="#"
+            class=""
+            >15元</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >20元</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >25元</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >30元</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >35元</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >35元以上</a
+          >
+          &nbsp;
+        </p>
+      </div>
+      <div class="item">
+        <span>布局：</span>
+        <p class="scv-shaixuan">
+          <b>布局：</b
+          ><a href="#" class="active">全部</a
+          >&nbsp;
+          <a
+            href="#"
+            class=""
+            >div和css</a
+          >
+
+          <a
+            href="#"
+            class=""
+            >表格布局</a
+          >
+        </p>
+      </div>
+
+      <div class="item">
+        <span>特价：</span>
+        <p class="scv-shaixuan">
+          <b style="width: 235px">特价：</b
+          ><a
+            href="#"
+            style="width: 235px; background: #03f; text-align: center"
+            >特价10元 【不查重】</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="list">
+      <!---列表和翻页-->
+      <ul>
+        <li>
+          <a href="./pages.html">
+            <i class="tag1"></i>
+            <img src="./images/1651234957847737.jpg" />
+            <div class="info"><span>价格：30元</span> <em>页数：6页</em></div>
+          </a>
+          <p class="price">E001 海贼王09</p>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="tag1"></i>
+            <img src="./images/1652796548680353.jpg" />
+            <div class="info"><span>价格：25元</span> <em>页数：7页</em></div>
+          </a>
+          <p class="price">E049 折耳猫</p>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="tag1"></i>
+            <img src="./images/1651555940318536.jpg" />
+            <div class="info"><span>价格：20元</span> <em>页数：3页</em></div>
+          </a>
+          <p class="price">E008 库洛米</p>
+        </li>
+
+        
+      </ul>
+    </div>
+    <div class="pageccc" style="clear: both">
+      <div class="plllko">
+        <span class="page-status">共217条 当前1/6页</span
+        ><span class="page-index"
+          ><a href="#">首页</a></span
+        ><span class="page-pre"><a href="#">前一页</a></span
+        ><span class="page-numbar"
+          ><a
+            href="#"
+            class="page-num page-num-current"
+            >1</a
+          ><a href="#" class="page-num">2</a
+          ><a href="#" class="page-num">3</a
+          ><a href="#" class="page-num">4</a
+          ><a href="#" class="page-num">5</a
+          ><span class="page-num">···</span></span
+        ><span class="page-next"
+          ><a href="#">后一页</a></span
+        ><span class="page-last"
+          ><a href="#">尾页</a></span
+        >
+      </div>
+    </div>
+    <!--返回顶部-->
+    <div class="go-top"><a href="#"></a></div>
+
+    <!--js-->
+    <script src="./js/jquery-1.7.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/f12.js"></script>
+    <div
+      style="display: none"
+      class="ubey-RecordingScreen-count-down ubey-RecordingScreen-count-down-container"
+    >
+      <style>
+        .ubey-RecordingScreen-count-down-container {
+          position: fixed;
+          height: 100vh;
+          width: 100vw;
+          top: 0;
+          left: 0;
+          z-index: 9999999999999;
+          background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        .ubey-RecordingScreen-count-down-content {
+          position: absolute;
+          display: flex;
+          top: 50%;
+          left: 50%;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          height: 15em;
+          width: 15em;
+          transform: translate(-50%, -100%);
+          background-color: rgba(0, 0, 0, 0.6);
+          border-radius: 50%;
+        }
+
+        #ubey-RecordingScreen-count-count {
+          font-size: 14em;
+          transform: translateY(-2%);
+        }
+      </style>
+      <div class="ubey-RecordingScreen-count-down-content">
+        <span id="ubey-RecordingScreen-count-count"></span>
+      </div>
+    </div>
+    <div class="footer">
+      &nbsp;&nbsp;&nbsp;&nbsp;<br /><a href="#"
+        >津ICP备2022003333号</a
+      >　
+    </div>
+  </body>
 </html>
