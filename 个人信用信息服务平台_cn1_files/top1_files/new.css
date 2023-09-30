@@ -1,0 +1,390 @@
+body {
+	font: 12px/normal Arial, "Microsoft YaHei", "Î¢ÈíÑÅºÚ", Geneva, sans-serif; color: rgb(62, 62, 62); font-size-adjust: none; font-stretch: normal;
+}
+body {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+h1 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+h2 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+h3 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+h4 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+img {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+ol {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+ul {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+dl {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+p {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+ul {
+	list-style: none;
+}
+ul li {
+	list-style: none;
+}
+h2 {
+	font-size: 18px;
+}
+h3 {
+	font-size: 16px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.gray {
+	color: rgb(166, 166, 166);
+}
+.center {
+	text-align: center;
+}
+.padding_left_20 {
+	padding-left: 20px;
+}
+.mar_top_30 {
+	margin-top: 30px;
+}
+.clearfix {
+	clear: both;
+}
+#header {
+	background: rgb(238, 238, 238); margin: 0px auto; width: 990px; height: 96px; padding-top: 8px; position: relative;
+}
+.logo {
+	width: 220px; height: 85px;
+}
+.logo img {
+	width: 220px; height: 85px;
+}
+.login_new {
+	width: 220px; height: 20px; text-align: right; right: 0px; color: rgb(107, 107, 107); line-height: 30px; padding-top: 32px; font-size: 12px; margin-right: 10px; float: right; display: inline; position: absolute; z-index: 1001;
+}
+.login_new1 {
+	width: 80px; height: auto; right: 0px; color: rgb(107, 107, 107); line-height: 30px; padding-top: 32px; font-size: 12px; margin-right: 30px; float: right; display: inline; position: absolute; z-index: 1001;
+}
+.login_new a {
+	padding: 0px 5px; color: rgb(107, 107, 107); text-decoration: none;
+}
+.login_new a:hover {
+	padding: 0px 5px; color: rgb(193, 16, 0); text-decoration: none;
+}
+.login_new1 a {
+	padding: 0px 5px; color: rgb(107, 107, 107); text-decoration: none;
+}
+.login_new1 a:hover {
+	padding: 0px 5px; color: rgb(193, 16, 0); text-decoration: none;
+}
+.span_red {
+	color: rgb(193, 16, 0);
+}
+.flat {
+	left: 280px; top: 40px; color: rgb(107, 107, 107); font-size: 24px; position: absolute;
+}
+.login_forget {
+	width: 320px; height: 20px; padding-top: 10px; clear: both; margin-left: 125px;
+}
+.login_forget a {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+.login_forget a:hover {
+	color: rgb(184, 17, 17); text-decoration: none;
+}
+.nextBar {
+	width: 100%; height: 32px; border-top-color: rgb(193, 16, 0); border-top-width: 3px; border-top-style: solid; background-color: rgb(255, 255, 255);
+}
+.nextBar .EEE {
+	background: rgb(255, 255, 255); margin: 0px auto; width: 990px; height: 32px;
+}
+.nextBar1 {
+	width: 100%; height: 3px; background-color: rgb(193, 16, 0);
+}
+.nextBar2 {
+	background: rgb(255, 255, 255); margin: 0px auto; width: 990px; height: 30px; clear: both;
+}
+#content {
+	margin: 0px auto; padding: 0px; width: 990px; background-color: rgb(255, 255, 255);
+}
+#main {
+	padding: 10px 30px 30px; height: auto !important; overflow: hidden; min-height: 660px;
+}
+#banner {
+	margin: 0px auto; width: 990px; height: 328px; border-bottom-color: rgb(193, 16, 0); border-bottom-width: 3px; border-bottom-style: solid; position: relative;
+}
+#banner img {
+	left: 0px; top: 0px; position: absolute; z-index: 8; opacity: 0;
+}
+#banner img.active {
+	z-index: 10; opacity: 1;
+}
+#banner img.last_active {
+	z-index: 9;
+}
+.banner_bot {
+	margin: -330px auto 0px; width: 990px; height: 330px; position: relative;
+}
+.banner_bot .startBtn {
+	left: 767px; top: 152px; width: 160px; height: 32px; text-align: center; color: rgb(255, 255, 255); line-height: 32px; font-size: 18px; text-decoration: none; display: inline-block; position: absolute; z-index: 100; background-color: rgb(193, 16, 0);
+}
+.banner_bot .startBtn:hover {
+	text-decoration: none; background-color: rgb(178, 15, 3);
+}
+.banner_bot .guide {
+	left: 767px; top: 188px; width: 160px; height: 32px; text-align: center; color: rgb(62, 62, 62); line-height: 32px; font-size: 18px; display: inline-block; position: absolute; z-index: 100;
+}
+.query {
+	height: 200px; border-top-color: rgb(193, 16, 0); border-bottom-color: rgb(193, 16, 0); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.query ul li {
+	padding: 25px 20px; width: 285px; overflow: hidden; float: left; position: relative;
+}
+.query ul li.pb {
+	border-left-color: rgb(193, 16, 0); border-left-width: 1px; border-left-style: solid;
+}
+.query ul li h2 {
+	height: 36px; line-height: 36px; overflow: hidden; padding-left: 48px; position: relative;
+}
+.icon-q1 {
+	left: 0px; top: 0px; width: 36px; height: 36px; position: absolute;
+}
+.icon-q2 {
+	left: 0px; top: 0px; width: 36px; height: 36px; position: absolute;
+}
+.icon-q3 {
+	left: 0px; top: 0px; width: 36px; height: 36px; position: absolute;
+}
+.icon-q1 {
+	background: url("../images/new_images/ico.gif") no-repeat left top;
+}
+.icon-q2 {
+	background: url("../images/new_images/ico.gif") no-repeat left -36px;
+}
+.icon-q3 {
+	background: url("../images/new_images/ico.gif") no-repeat left -73px;
+}
+.query ul li p {
+	height: 90px; line-height: 24px; padding-top: 25px; font-size: 14px;
+}
+.query ul li .start {
+	padding: 0px 10px; top: 170px; height: 30px; right: 30px; color: rgb(193, 16, 0); line-height: 30px; font-size: 16px; border-bottom-color: rgb(193, 16, 0); border-bottom-width: 3px; border-bottom-style: solid; position: absolute;
+}
+.query ul li .start:hover {
+	color: rgb(178, 15, 3); border-bottom-color: rgb(178, 15, 3); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.bottom {
+	background: rgb(255, 255, 255); margin: 0px auto; padding: 20px 0px; width: 990px;
+}
+.wrap {
+	padding: 0px 20px; width: 200px; overflow: hidden; float: left;
+}
+.wrap h3 {
+	padding-bottom: 10px;
+}
+.wrap ul li {
+	line-height: 28px; font-size: 14px;
+}
+.wrap ul li a {
+	color: rgb(62, 62, 62); text-decoration: none;
+}
+.wrap ul li a:hover {
+	color: rgb(193, 16, 0); text-decoration: none;
+}
+.leftBar {
+	width: 590px;
+}
+.rightBar {
+	width: 300px; float: right;
+}
+.leftBar h3 {
+	height: 36px; color: rgb(32, 32, 32); line-height: 36px; border-bottom-color: rgb(193, 16, 0); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.rightBar h3 {
+	height: 36px; color: rgb(32, 32, 32); line-height: 36px; border-bottom-color: rgb(193, 16, 0); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.rightInfro h3 {
+	height: 36px; color: rgb(32, 32, 32); line-height: 36px; border-bottom-color: rgb(193, 16, 0); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.form-group {
+	margin-bottom: 15px;
+}
+.form-group2 {
+	margin-bottom: 20px;
+}
+.title {
+	height: 36px; color: rgb(32, 32, 32); line-height: 36px; border-bottom-color: rgb(193, 16, 0); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.lable {
+	text-align: right; padding-top: 8px; font-size: 16px; margin-bottom: 0px; float: left;
+}
+.lable1 {
+	width: 120px;
+}
+.lable2 {
+	width: 80px;
+}
+.inputBox {
+	float: left;
+}
+.textBox {
+	line-height: 36px; float: left;
+}
+.inputText {
+	border-radius: 4px; border: 1px solid rgb(127, 127, 127); border-image: none; height: 28px; line-height: 28px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+.text1 {
+	width: 200px;
+}
+.text3 {
+	width: 100px;
+}
+.inputBtn {
+	padding: 3px 8px; border-radius: 5px; border: currentColor; border-image: none; height: 36px; text-align: center; color: rgb(255, 255, 255); line-height: 28px; font-size: 14px; font-weight: bold; display: inline-block; cursor: pointer; background-color: rgb(193, 16, 0); -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.inputBtn:hover {
+	background-color: rgb(178, 15, 3);
+}
+.btn1 {
+	width: 318px;
+}
+.btn2 {
+	width: 218px;
+}
+.btn3 {
+	width: 180px;
+}
+.btn4 {
+	width: 120px; margin-left: 15px;
+}
+.prompt {
+	width: 18px; height: 18px; display: inline-block; position: absolute; z-index: 999; cursor: pointer;
+}
+.prompt2 {
+	width: 18px; height: 18px; display: inline-block; position: absolute; z-index: 999; cursor: pointer;
+}
+.prompt3 {
+	width: 18px; height: 18px; display: inline-block; position: absolute; z-index: 999; cursor: pointer;
+}
+.prompt4 {
+	width: 18px; height: 18px; display: inline-block; position: absolute; z-index: 999; cursor: pointer;
+}
+.prompt5 {
+	width: 18px; height: 18px; display: inline-block; position: absolute; z-index: 999; cursor: pointer;
+}
+.prompt {
+	left: 350px; top: 9px;
+}
+.prompt3 {
+	left: 250px; top: 5px;
+}
+.prompt4 {
+	left: 160px; top: 5px;
+}
+.prompt5 {
+	left: 0px; top: 0px;
+}
+.prompt img {
+	width: 18px; height: 18px;
+}
+.prompt2 img {
+	width: 18px; height: 18px;
+}
+.prompt3 img {
+	width: 18px; height: 18px;
+}
+.prompt4 img {
+	width: 18px; height: 18px;
+}
+.prompt5 img {
+	width: 18px; height: 18px;
+}
+.userTip {
+	height: 36px; color: rgb(57, 57, 57); line-height: 36px; padding-left: 30px; font-size: 14px; margin-bottom: 35px;
+}
+.userTip a {
+	padding: 0px 6px; color: rgb(57, 57, 57);
+}
+#main p {
+	color: rgb(68, 68, 68); line-height: 28px; padding-top: 15px; font-size: 14px;
+}
+.position_re {
+	position: relative;
+}
+.login_codekey {
+	left: 182px; top: 7px; width: 28px; height: 21px; overflow: hidden; position: absolute;
+}
+.codekey {
+	left: 305px; top: 7px; width: 28px; height: 21px; overflow: hidden; position: absolute;
+}
+.codekey img {
+	width: 28px; height: 21px;
+}
+#footer {
+	background: rgb(193, 16, 0); margin: 0px auto; width: 990px; height: 80px; color: rgb(255, 255, 255); line-height: 30px; clear: both; font-family: Arial,Microsoft YaHei,Geneva,sans-serif; font-size: 12px; min-width: 980px;
+}
+#footer span {
+	padding-right: 12px;
+}
+#footer img {
+	vertical-align: middle;
+}
+#popupbox {
+	background: rgb(255, 255, 255); padding: 8px; left: 50%; top: 50%; width: 740px; height: 320px; line-height: 22px; font-size: 12px; position: absolute; z-index: 9999; _position: absolute;
+}
+.pop_button {
+	background: url("../images/img/button-red.png") no-repeat; border: currentColor; border-image: none; left: 325px; top: 260px; width: 105px; height: 32px; text-align: center; color: rgb(255, 255, 255); line-height: 32px; font-size: 14px; display: block; position: absolute; cursor: pointer;
+}
+.button_close {
+	background: url("../images/img/close.png") no-repeat; border: currentColor; border-image: none; left: 720px; top: 8px; width: 21px; height: 21px; position: absolute; cursor: pointer;
+}
+#back {
+	background: rgba(0, 0, 0, 0.1); left: 0px; top: 0px; width: 100%; height: 730px; display: none; position: absolute; z-index: 1997; -moz-opacity: 0.1; -khtml-opacity: 0.1; _opacity: 0.1;
+}
+#Layer1 {
+	left: 17px; top: 12px; width: 506px; height: 40px; position: absolute; z-index: 999;
+}
+#toptomNav {
+	background: rgb(0, 153, 102); left: 0px; top: 0px; width: 100%; height: 107px; position: relative;
+}
+#centerDiv {
+	background: rgb(255, 255, 255); width: 990px; height: auto; clear: both; position: relative; min-height: 700px;
+}
+#centerDiv1 {
+	width: 200px; height: 100%; float: left; display: inline; position: relative; min-height: 700px; align: left;
+}
+#centerDiv2 {
+	width: 788px; height: 100%; right: auto; float: right; display: inline; position: relative; min-height: 700px; align: right;
+}
+#bottomNav {
+	background: rgb(255, 255, 255); width: 990px; height: 28px;
+}
+.guide_notice {
+	margin: 60px auto 0px; width: 600px; height: 250px; text-align: center;
+}
+.guide_notice1 {
+	margin: 15px auto 0px; width: 600px; height: 250px;
+}
+.guide_notice1 ul {
+	margin: 0px auto;
+}
+.guide_notice1 ul li {
+	clear: both;
+}
+.guide_notice1 p {
+	text-align: center;
+}

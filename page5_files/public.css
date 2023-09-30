@@ -1,0 +1,531 @@
+* {
+	margin: 0px; padding: 0px;
+}
+html {
+	background: rgb(238, 238, 238); font: 12px/normal Arial, "Microsoft YaHei", "Î¢ÈíÑÅºÚ", Geneva, sans-serif; margin: 0px auto; padding: 0px; border: currentColor; border-image: none; width: 100%; font-size-adjust: none; font-stretch: normal; _background: none;
+}
+body {
+	background: rgb(238, 238, 238); font: 12px/normal Arial, "Microsoft YaHei", "Î¢ÈíÑÅºÚ", Geneva, sans-serif; margin: 0px auto; padding: 0px; border: currentColor; border-image: none; width: 100%; font-size-adjust: none; font-stretch: normal; _background: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+body img {
+	border: currentColor; border-image: none;
+}
+body ul {
+	margin: 0px; padding: 0px;
+}
+body li {
+	list-style: none;
+}
+.line_height_24 {
+	line-height: 24px;
+}
+.line_height_20 {
+	line-height: 20px;
+}
+.p1 {
+	margin: 10px 0px 18px;
+}
+.p2 {
+	margin: 10px 0px;
+}
+.span-12 {
+	font-size: 12px;
+}
+.span-14 {
+	font-size: 14px;
+}
+.span-16 {
+	font-size: 16px;
+}
+.span-24 {
+	font-size: 24px;
+}
+.span-grey {
+	color: rgb(104, 104, 104);
+}
+.span-grey2 {
+	color: rgb(68, 68, 68);
+}
+.span-grey3 {
+	color: rgb(51, 51, 51);
+}
+.span-grey4 {
+	color: rgb(115, 115, 115);
+}
+.span-red {
+	color: rgb(184, 17, 17);
+}
+.span-white {
+	color: rgb(255, 255, 255);
+}
+.span-green {
+	color: rgb(31, 152, 36);
+}
+.span-blue {
+	color: rgb(18, 52, 181);
+}
+.span-blue1 {
+	color: rgb(60, 127, 170);
+}
+.span-bold {
+	font-weight: bold;
+}
+.span-normal {
+	font-weight: normal;
+}
+.padding_top_-10 {
+	
+}
+.padding_top_6 {
+	padding-top: 6px;
+}
+.padding_top_10 {
+	padding-top: 10px;
+}
+.padding_top_15 {
+	padding-top: 15px;
+}
+.padding_top_20 {
+	padding-top: 20px;
+}
+.padding_top_30 {
+	padding-top: 30px;
+}
+.padding_top_50 {
+	padding-top: 50px;
+}
+.margin_left_15 {
+	margin-left: 15px;
+}
+.margin_left_20 {
+	margin-left: 20px;
+}
+.margin_left_25 {
+	margin-left: 25px;
+}
+.margin_left_50 {
+	margin-left: 50px;
+}
+.margin_left_80 {
+	margin-left: 80px;
+}
+.margin_left_140 {
+	margin-left: 140px;
+}
+.margin_left_180 {
+	margin-left: 180px;
+}
+.padding_left_5 {
+	padding-left: 5px;
+}
+.padding_right_5 {
+	padding-right: 5px;
+}
+.padding_right_80 {
+	padding-right: 80px;
+}
+.padding_left_20 {
+	padding-left: 20px;
+}
+.padding_left_40 {
+	padding-left: 40px;
+}
+.padding_left_80 {
+	padding-left: 80px;
+}
+.padding_left_100 {
+	padding-left: 100px;
+}
+.padding_left_200 {
+	padding-left: 200px;
+}
+.margin_top_20 {
+	margin-top: 20px;
+}
+.margin_top_40 {
+	margin-top: 40px;
+}
+.margin_top_80 {
+	margin-top: 80px;
+}
+.margin_bot_20 {
+	margin-bottom: 20px;
+}
+.margin_bot_30 {
+	margin-bottom: 30px;
+}
+.margin_bot_50 {
+	margin-bottom: 50px;
+}
+.margin_bot_300 {
+	margin-bottom: 300px;
+}
+.text_indent_20 {
+	text-indent: 20px;
+}
+.text_dec {
+	text-decoration: none;
+}
+.a_red {
+	color: rgb(184, 17, 17);
+}
+.aline-center {
+	text-align: center;
+}
+.aline-right {
+	text-align: right;
+}
+.div_left {
+	float: left;
+}
+.div_right {
+	float: right;
+}
+.gray-bk {
+	width: 100%; height: 100%;
+}
+.now {
+	margin: 0px auto; width: 990px; height: 40px; color: rgb(104, 104, 104); line-height: 40px;
+}
+.now a {
+	color: rgb(104, 104, 104); text-decoration: none;
+}
+.now a:hover {
+	color: rgb(104, 104, 104); text-decoration: underline;
+}
+.right_now {
+	background: rgb(255, 255, 255); width: 790px; height: 40px; color: rgb(104, 104, 104); line-height: 40px; text-indent: 15px; margin-bottom: 10px;
+}
+.right_now a {
+	color: rgb(104, 104, 104); text-decoration: none;
+}
+.right_now a:hover {
+	color: rgb(104, 104, 104); text-decoration: underline;
+}
+.title-1 {
+	color: rgb(32, 32, 32); line-height: 30px; font-size: 16px; font-weight: bold;
+}
+.title-2 {
+	color: rgb(32, 32, 32); line-height: 30px; font-size: 16px; font-weight: bold;
+}
+.title-1 {
+	background: url("../images/img/title_bk.png") no-repeat; margin: 0px auto; width: 960px; height: 40px;
+}
+.title-2 {
+	background: url("../images/img/title_bk.png") no-repeat; width: 750px; height: 30px; margin-left: 20px;
+}
+.top-bk {
+	background: rgb(170, 0, 0); width: 100%; height: 95px;
+}
+.top {
+	margin: 0px auto; width: 990px; height: 95px;
+}
+.top-l {
+	width: 470px; height: 95px; float: left;
+}
+.top-r {
+	background: url("../images/img/phone.gif") no-repeat; width: 530px; height: 95px; float: left;
+}
+.top-r .out {
+	left: 440px; top: 35px; width: 78px; height: 24px; position: relative;
+}
+.bot {
+	background: rgb(193, 16, 0); margin: 0px auto; width: 990px; height: 80px; color: rgb(255, 255, 255); line-height: 30px; clear: both; font-family: Arial,Microsoft YaHei,Geneva,sans-serif; font-size: 12px; min-width: 980px;
+}
+.bot span {
+	padding-right: 12px;
+}
+.bot img {
+	vertical-align: middle;
+}
+.table-con-notice {
+	margin: 30px auto 0px; padding: 15px; width: 698px; text-align: center; color: rgb(184, 17, 17); line-height: 20px; font-size: 14px; min-height: 30px;
+}
+.table-con-notice1 {
+	margin: 30px auto 0px; padding: 15px; width: 698px; text-align: center; color: rgb(104, 104, 104); line-height: 20px; font-size: 14px; min-height: 12px;
+}
+.table-con-notice1 a {
+	color: rgb(18, 52, 181); text-decoration: none;
+}
+.table-con-notice1 a:hover {
+	color: rgb(18, 52, 181); text-decoration: underline;
+}
+.table-con {
+	margin: 0px auto; width: 700px; height: auto !important; min-height: 400px;
+}
+.table-con ul {
+	margin: 0px auto;
+}
+.table-con ul li {
+	clear: both; _display: inline-block;
+}
+.table-con ul li.height32 {
+	height: 32px;
+}
+.table-con ul li.height12 {
+	height: 12px;
+}
+.t1_a {
+	color: rgb(18, 52, 181); text-decoration: none;
+}
+.t1_a:hover {
+	color: rgb(18, 52, 181); text-decoration: none;
+}
+.ul_l {
+	width: 140px; height: 50px; display: block;
+}
+.ul_r {
+	width: 500px; height: auto;
+}
+.ul_r li.padding_t10 {
+	padding-top: 10px;
+}
+.ul_r li.padding_t15 {
+	padding-top: 15px;
+}
+.table-con1 {
+	margin: 0px auto; width: 680px; height: auto !important; min-height: 150px;
+}
+.table-con1 ul {
+	margin: 0px auto;
+}
+.table-con1 ul li {
+	clear: both;
+}
+.table-con1 ul li p {
+	line-height: 24px; margin-top: 4px;
+}
+.table-con2 {
+	margin: 0px auto; width: 680px; height: auto !important; min-height: 115px;
+}
+.table-con2 ul {
+	margin: 0px auto;
+}
+.table-con2 ul li {
+	clear: both;
+}
+.table-con3 {
+	margin: 0px auto; width: 680px; height: auto !important; min-height: 480px;
+}
+.table-con3 ul {
+	margin: 0px auto;
+}
+.table-con3 ul li {
+	clear: both;
+}
+.table-con4 {
+	margin: 0px auto; width: 680px; height: auto;
+}
+.table-con4 ul {
+	margin: 0px auto;
+}
+.table-con4 ul li {
+	clear: both;
+}
+.con_20 {
+	margin: 0px auto; width: 580px; height: 20px; clear: both;
+}
+.con_30 {
+	margin: 0px auto; width: 300px; height: 30px; clear: both;
+}
+.con_50 {
+	margin: 0px auto; width: 580px; height: 50px; clear: both;
+}
+.con_300 {
+	margin: 0px auto; width: 580px; height: 300px; clear: both;
+}
+.regist_text {
+	width: 150px; height: 32px; text-align: right; color: rgb(68, 68, 68); line-height: 32px; float: left;
+}
+.login_input {
+	border: 1px solid rgb(209, 209, 209); border-image: none; width: 220px; height: 30px; color: rgb(104, 104, 104); line-height: 30px; text-indent: 8px; float: left; display: inline;
+}
+.login_notice {
+	margin: 20px auto 0px; width: 500px; height: 40px; text-align: center; color: rgb(104, 104, 104); line-height: 20px; font-size: 14px;
+}
+.login_notice a {
+	color: rgb(18, 52, 181); text-decoration: none;
+}
+.login_notice a:hover {
+	color: rgb(18, 52, 181); text-decoration: underline;
+}
+.password {
+	width: 28px; height: 21px; margin-top: 5px; margin-left: -35px; float: left; display: inline;
+}
+.earn_tel {
+	background: url("../images/img/earn.png") no-repeat; margin: 4px 15px; border: currentColor; border-image: none; width: 86px; height: 23px; text-align: center; color: rgb(193, 16, 0); line-height: 23px; font-size: 12px; display: inline; cursor: pointer;
+}
+.earn_yl {
+	background: url("../images/img/earn_yl.png") no-repeat; border: currentColor; border-image: none; width: 110px; height: 23px; text-align: center; color: rgb(193, 16, 0); line-height: 23px; font-size: 12px; margin-top: 4px; margin-left: 15px; display: inline; cursor: pointer;
+}
+.login_input1 {
+	border: 1px solid rgb(209, 209, 209); border-image: none; width: 180px; height: 30px; color: rgb(104, 104, 104); line-height: 30px; text-indent: 8px; float: left; display: inline;
+}
+.radio_type {
+	padding: 0px 5px; margin-top: 12px;
+}
+.radio_type1 {
+	margin: 12px 5px; text-indent: 5px;
+}
+.radio_type2 {
+	margin: 10px 5px; _margin: 5px;
+}
+.yzm_text {
+	width: 90px; text-align: right; color: rgb(68, 68, 68); line-height: 32px; float: left;
+}
+.yzm_img {
+	padding-top: 2px; padding-left: 15px; float: left;
+}
+.yzm_a {
+	color: rgb(18, 52, 181); line-height: 32px; padding-left: 10px; text-decoration: none; float: left;
+}
+.yzm_a:hover {
+	color: rgb(18, 52, 181); text-decoration: underline;
+}
+.yzm_span {
+	line-height: 36px; padding-left: 10px; float: left;
+}
+.yzm_input {
+	width: 110px;
+}
+.regist_btn {
+	background: url("../images/img/button-red.png") no-repeat; border: currentColor; border-image: none; width: 105px; height: 32px; text-align: center; line-height: 34px; float: left; display: block; cursor: pointer;
+}
+.regist_btn-1 {
+	background: url("../images/img/button-grey.png") no-repeat; border: currentColor; border-image: none; width: 105px; height: 32px; text-align: center; line-height: 34px; float: left; display: block; cursor: pointer;
+}
+.border_grey {
+	border: 1px solid rgb(157, 157, 157); border-image: none;
+}
+.clear {
+	clear: both;
+}
+.guide_btn {
+	background: url("../images/img/button-red.png") no-repeat; border: currentColor; border-image: none; width: 105px; height: 32px; text-align: center; line-height: 34px; cursor: pointer;
+}
+.select_box {
+	background: url("../images/img/xiala.png") no-repeat 190px; border: 1px solid rgb(209, 209, 209); border-image: none; left: 0px; top: 0px; width: 220px; height: 30px; float: left; position: relative;
+}
+.open_select_box {
+	width: 220px; height: 30px; line-height: 30px; text-indent: 10px; position: relative; cursor: pointer;
+}
+.open_select {
+	height: 30px; text-align: left; color: rgb(104, 104, 104); line-height: 30px; float: left;
+}
+.select_list {
+	border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(209, 209, 209) rgb(209, 209, 209); border-image: none; left: -1px; top: 0px; width: 220px; color: rgb(104, 104, 104); float: left; display: none; position: relative; z-index: 99; background-color: rgb(255, 255, 255);
+}
+.select_list li {
+	width: 220px; height: 24px; line-height: 24px; position: relative; cursor: pointer;
+}
+.select_list li:hover {
+	background: rgb(238, 238, 238); color: rgb(104, 104, 104);
+}
+.select_list ul {
+	
+}
+.h_bg {
+	color: rgb(84, 83, 83);
+}
+.currency_type {
+	width: 220px; text-indent: 10px; display: block;
+}
+.select_box1 {
+	background: url("../images/img/xiala.png") no-repeat 130px; border: 1px solid rgb(209, 209, 209); border-image: none; left: 0px; top: 0px; width: 160px; height: 30px; float: left; position: relative;
+}
+.open_select_box1 {
+	width: 160px; height: 30px; line-height: 30px; text-indent: 10px; position: relative; cursor: pointer;
+}
+.open_select1 {
+	height: 30px; text-align: left; color: rgb(104, 104, 104); line-height: 30px; float: left;
+}
+.select_list1 {
+	background: rgb(255, 255, 255); border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(209, 209, 209) rgb(209, 209, 209); border-image: none; left: -1px; top: 0px; width: 160px; color: rgb(104, 104, 104); float: left; display: none; position: relative; z-index: 99;
+}
+.select_list1 li {
+	width: 160px; height: 30px; line-height: 30px; position: relative; cursor: pointer;
+}
+.select_list1 li:hover {
+	background: rgb(242, 242, 242); width: 160px; height: 30px; color: rgb(104, 104, 104);
+}
+.select_list1 ul {
+	
+}
+.select_list1 li.li01 {
+	text-indent: 10px; margin-left: 0px;
+}
+.currency_type1 {
+	width: 160px; text-indent: 10px; display: block;
+}
+.step {
+	margin: 60px auto 30px; width: 420px; height: 39px;
+}
+.step_a {
+	margin: 60px auto 30px; width: 324px; height: 39px;
+}
+.table_search {
+	border: currentColor; border-image: none; font-size: 12px; border-collapse: collapse;
+}
+.table_search td {
+	border: 1px solid rgb(232, 232, 232); border-image: none; text-indent: 10px;
+}
+.error_img {
+	margin: 80px auto 0px; width: 680px; height: auto; text-align: center;
+}
+.erro_div1 {
+	margin: 20px auto; width: 720px; height: 20px; text-align: center; color: rgb(184, 17, 17); line-height: 20px; font-size: 14px;
+}
+.erro_div2 {
+	margin: 0px auto; width: 680px; height: auto; color: rgb(184, 17, 17); line-height: 20px; text-indent: 150px; font-size: 14px; min-height: 20px;
+}
+.erro_div2a {
+	margin: 0px auto; width: 680px; height: auto; text-align: center; color: rgb(184, 17, 17); line-height: 20px; font-size: 14px; min-height: 20px;
+}
+.erro_div3 {
+	margin: 20px auto; width: 460px; height: auto; text-align: center; color: rgb(184, 17, 17); line-height: 20px; font-size: 14px; min-height: 20px;
+}
+.icon-b1 {
+	background: url("../images/new_images/icon3.gif") no-repeat; width: 28px; height: 28px; vertical-align: middle; display: inline-block;
+}
+.icon-b2 {
+	background: url("../images/new_images/icon3.gif") no-repeat; width: 28px; height: 28px; vertical-align: middle; display: inline-block;
+}
+.icon-b3 {
+	background: url("../images/new_images/icon3.gif") no-repeat; width: 28px; height: 28px; vertical-align: middle; display: inline-block;
+}
+.icon-b4 {
+	background: url("../images/new_images/icon3.gif") no-repeat; width: 28px; height: 28px; vertical-align: middle; display: inline-block;
+}
+.icon-b1 {
+	background-position: left top;
+}
+.icon-b2 {
+	background-position: left -28px;
+}
+.icon-b3 {
+	background-position: left -56px;
+}
+.icon-b4 {
+	background-position: left -84px;
+}
+.end_notice {
+	color: rgb(68, 68, 68); line-height: 26px; font-size: 14px;
+}
+.mobile_notice {
+	margin: 20px auto; width: 698px; height: auto; color: rgb(184, 17, 17); line-height: 22px; font-size: 14px; min-height: 20px;
+}
+.new {
+	background: url("../images/img/new.gif") no-repeat; left: 130px; top: 15px; width: 22px; height: 14px; position: absolute;
+}
+.ocx_style {
+	border-radius: 4px; border: 1px solid rgb(127, 127, 127); border-image: none; width: 200px; height: 28px; line-height: 28px; float: left; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+.ocx_style_notice {
+	margin-left: 212px; float: left;
+}
