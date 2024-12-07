@@ -1,0 +1,206 @@
+@charset "utf-8";
+A:link {  font-family:Arial, Helvetica, sans-serif;
+	FONT-SIZE: 9pt; COLOR: #58595b; text-decoration: none;
+}
+A:visited { font-family:Arial, Helvetica, sans-serif;
+	FONT-SIZE: 9pt; COLOR: #58595b;	text-decoration: none;
+}
+A:hover { font-family:Arial, Helvetica, sans-serif;
+	FONT-SIZE: 9pt; COLOR: #ff0000; TEXT-DECORATION: underline;
+}
+A:active { font-family:Arial, Helvetica, sans-serif;
+
+	FONT-SIZE: 9pt; COLOR: #58595b; text-decoration: none;
+}
+body {
+	background-color: #D7D7D7;
+	}
+.Inquiry {
+	width: 96%;
+	margin-right: 2%;
+	margin-left: 2%;
+	border: 1px solid #929292;
+}
+.hover{
+	font-size: 12px;
+	color: #000000;
+	background-color: #d8551e;
+	font-weight: bold;
+	height: 25px;
+}
+.bt {
+	display: block;
+	width: 37px;
+	background-image: url('1.png');
+	background-repeat: no-repeat;
+	height: 22px;
+	background-color: transparent;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	float: left;
+	margin-right: 5px;
+}
+.cpbt {
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	float: left;
+	padding-top: 5px;
+	color: #000000;
+}
+.btwz {
+	display: block;
+	float: right;
+}
+
+.font {
+	font-size: 12px;
+	color: #666666;
+		font-weight: bold;
+		text-decoration: none;
+}
+
+.Inquiry1 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #929292;
+	padding-left: 14px;
+	height: 30px;
+}
+
+.myform {
+	width: 98%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+.nrzi {
+	font-size: 12px;
+	color: #000000;
+	height: 25px;
+}
+.wb {
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.Factory {
+	display: block;
+	margin-bottom: 10px;
+	float: left;
+	margin-right: 30px;
+}
+.Category {
+	display: block;
+	margin-bottom: 10px;
+}
+.date {
+	display: block;
+	margin-bottom: 10px;
+	float: left;
+	margin-right: 30px;
+}
+.User {
+	display: block;
+	margin-bottom: 10px;
+}
+.kuang {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	background-color: transparent;
+	background-image: none;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+}
+.Factory1 {
+	width: 35%;
+}
+.Category1 {
+	width: 45%;
+}
+.date1 {
+	width: 15%;
+}
+.weizi {
+	color: #bf1d00;
+	padding-left: 36px;
+	font-size: 12px;
+}
+
+.User1 {
+	width: 44%;
+}
+
+
+.Tabulation {
+	width: 96%;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-top: 20px;
+}
+.Tabulation h1{
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	padding-left: 10px;
+	height: 22px;
+	margin-top: 10px;
+}
+.Unit1 {
+	width: 87%;
+}
+
+.cpzi {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	padding-left: 10px;
+	height: 22px;
+	padding-top: 7px;
+	padding-bottom: 3px;
+}
+
+.h2 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #464646;
+	height: 35px;
+}
+.jxs {
+	clear: both;
+	display: block;
+}
+.jxs1 {
+	width: 85%;
+}
+.riqi {
+	width: 20%;
+}
+
+h3 {
+	display: block;
+	font-size: 12px;
+	margin-left: 70%;
+}
+.form1 {
+	width: 200px;
+	font-size: 12px;
+	color: #000000;
+	margin-top: 10px;
+	float: right;
+	margin-right: 5%;
+	margin-bottom: 48px;
+}
+.page {
+	background-color: transparent;
+	border: 1px solid #999999;
+}
