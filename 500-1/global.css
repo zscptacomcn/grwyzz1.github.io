@@ -1,0 +1,19 @@
+@charset "utf-8";
+BODY{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	SCROLLBAR-FACE-COLOR: #d7d7d7;
+	SCROLLBAR-HIGHLIGHT-COLOR: #d7d7d7;
+	SCROLLBAR-SHADOW-COLOR: #d45426;
+	SCROLLBAR-3DLIGHT-COLOR: #d45426;
+	SCROLLBAR-ARROW-COLOR: #d45426;
+	SCROLLBAR-TRACK-COLOR: #d7d7d7;
+	SCROLLBAR-DARKSHADOW-COLOR: #9E80BC;
+	SCROLLBAR-BASE-COLOR: #664089;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #4e4e4e;
+}
